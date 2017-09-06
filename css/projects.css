@@ -1,0 +1,33 @@
+#pg-projects .screenshot {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px gray;
+}
+
+.project-container {
+  margin: 40px 0;
+  padding: 40px;
+  background-color: rgba(238,232,205,0.5);
+}
+
+.project-container h4 {
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+
+.project-container a {
+  margin-top: 20px;
+}
+
+.project-git-link, .project-link-link {
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.project-container .row p {
+  padding: 50px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+
+}

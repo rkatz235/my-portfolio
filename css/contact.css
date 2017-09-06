@@ -1,0 +1,25 @@
+#pg-contact .page {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pg-contact .page .row {
+  margin: 0 auto;
+}
+
+#pg-contact .page .row .col {
+  padding: 20px;
+}
+.profile-icon a img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #pg-contact .page .row {
+  }
+  #pg-contact .profile-icon a {
+    margin: 20px 0;
+  }
+}

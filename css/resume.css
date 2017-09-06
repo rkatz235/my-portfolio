@@ -1,0 +1,46 @@
+#pg-resume #collapseOne {
+  width: 100%;
+}
+#pg-resume #collapseOne .card-block p {
+  display: inline;
+  margin: 0;
+  width: 30%;
+}
+#pg-resume #collapseOne .card-block .low {
+  font-size: 85%
+}
+#pg-resume #collapseOne .card-block .med {
+  font-size: 150%;
+}
+#pg-resume #collapseOne .card-block .high {
+  font-size: 200%;
+}
+
+.education-entries {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.education-entries .row .col h2 {
+  display: inline;
+  font-size: 12px;
+}
+.education-entries .row h6 {
+  font-weight: 500;
+  display: inline;
+}
+
+.education-entries .row p {
+  text-align: left;
+}
+
+#pg-resume a {
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#pg-resume .card-header {
+  margin: 10% auto;
+}
+
+.

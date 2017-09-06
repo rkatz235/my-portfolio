@@ -1,0 +1,12 @@
+#pg-home h1, h2, h6 {
+  text-align: center;
+}
+
+#pg-home h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+#pg-home h2 {
+  font-size: 18px;
+}

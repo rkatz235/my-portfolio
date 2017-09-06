@@ -1,0 +1,18 @@
+<div class="page" ng-controller="ProjectsController">
+  <div class="container">
+    <h1>Projects</h1>
+
+    <div class="project-container" ng-repeat="project in projects">
+      <div class="row">
+        <h4>{{ project.name }}</h4>
+        <h6>{{ project.published }}</h6>
+        <p>{{ project.description }}</p>
+      </div>
+      <div class="row">
+        <img class="screenshot" ng-src=" {{project.screenshot }}">
+        <a href="{{ project.github }}"><img class="project-git-link" src="../img/project-git.png"></a>
+        <a href="{{ project.link }}"><img class="project-link-link" src="../img/project-link.png"></a>
+      </div>
+    </div>
+  </div>
+</div>

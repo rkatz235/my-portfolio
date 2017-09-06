@@ -1,0 +1,120 @@
+/*positioning pages*/
+
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+}
+
+#pt-main {
+  position: relative;
+  height: 100%; width: 100%;
+  text-align: center;
+}
+
+#pt-main .pt-page {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+  padding: 10% 20% 20% 20%;
+  overflow: scroll;
+}
+
+#pt-main .pt-page-current {
+  display: block;
+  position: absolute; /*KEEP THIS ALWAYS*/
+}
+
+#pt-main a {
+  color: black;
+}
+
+/*positioning general page layout*/
+.page .container {
+  width: 100%;
+  position: relative;
+}
+
+.page .container h1 {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/*positioning nav bar*/
+.nav .south, .nav .north, .nav .east, .nav .west {
+  background-color: rgb(220, 220, 255);
+
+}
+
+.nav .south, .north {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  height: 50px;
+}
+
+.nav .east, .west {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 50px;
+}
+
+.nav .south {
+  bottom: 0;
+}
+
+.nav .north {
+  top: 0;
+}
+
+.nav .south button {
+  position: relative;
+  bottom: -10px;
+}
+
+.nav .north button {
+  position: relative;
+  top: 15px;
+}
+
+.nav .east {
+  right: 0;
+}
+
+.nav .west {
+  left: 0;
+}
+
+.nav .east button, .west button {
+  top: 43%;
+  position: relative;
+
+}
+
+.nav .east button {
+  transform: rotate(90deg);
+  left: -10px;
+}
+
+.nav .west button {
+  transform: rotate(-90deg);
+  right: 20px;
+}
+
+.nav button {
+  font-size: 13px; font-weight: 900; font-family: 'Raleway', sans-serif;
+  text-transform: uppercase; letter-spacing: 1px;
+  color: rgb(75, 0, 130);
+  background: transparent;
+	cursor: pointer;
+  border: none;
+}
+
+button:disabled{
+  color: rgb(255,255,255);
+}
